@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.cabrillo.tracker.TrackerPanel">
+    <property name="semantic_version" type="string">6.2.0</property>
+    <property name="width" type="double">1280.0</property>
+    <property name="height" type="double">960.0</property>
+    <property name="magnification" type="double">0.5</property>
+    <property name="center_x" type="int">341</property>
+    <property name="center_y" type="int">242</property>
+    <property name="videoclip" type="object">
+    <object class="org.opensourcephysics.media.core.VideoClip">
+        <property name="video" type="object">
+        <object class="org.opensourcephysics.media.core.ImageVideo">
+            <property name="paths" type="array" class="[Ljava.lang.String;">
+                <property name="[0]" type="string">WhatsApp Image 2025-11-27 at 07.38.42 (2).jpeg</property>
+            </property>
+            <property name="path" type="string">WhatsApp Image 2025-11-27 at 07.38.42 (2).jpeg</property>
+            <property name="delta_t" type="double">100.0</property>
+        </object>
+        </property>
+        <property name="video_framecount" type="int">101</property>
+        <property name="startframe" type="int">0</property>
+        <property name="stepsize" type="int">1</property>
+        <property name="stepcount" type="int">101</property>
+        <property name="starttime" type="double">0.0</property>
+        <property name="readout" type="string">frame</property>
+        <property name="playallsteps" type="boolean">true</property>
+    </object>
+    </property>
+    <property name="clipcontrol" type="object">
+    <object class="org.opensourcephysics.media.core.StepperClipControl">
+        <property name="rate" type="double">1.0</property>
+        <property name="delta_t" type="double">100.0</property>
+        <property name="frame" type="int">10</property>
+    </object>
+    </property>
+    <property name="coords" type="object">
+    <object class="org.opensourcephysics.media.core.ImageCoordSystem">
+        <property name="fixedorigin" type="boolean">true</property>
+        <property name="fixedangle" type="boolean">true</property>
+        <property name="fixedscale" type="boolean">true</property>
+        <property name="locked" type="boolean">false</property>
+        <property name="framedata" type="array" class="[Lorg.opensourcephysics.media.core.ImageCoordSystem$FrameData;">
+            <property name="[0]" type="object">
+            <object class="org.opensourcephysics.media.core.ImageCoordSystem$FrameData">
+                <property name="xorigin" type="double">734.4940787421154</property>
+                <property name="yorigin" type="double">536.6964472452692</property>
+                <property name="angle" type="double">-89.63506366426938</property>
+                <property name="xscale" type="double">1.0</property>
+                <property name="yscale" type="double">1.0</property>
+            </object>
+            </property>
+        </property>
+    </object>
+    </property>
+    <property name="length_unit" type="string">m</property>
+    <property name="mass_unit" type="string">kg</property>
+    <property name="units_visible" type="boolean">true</property>
+    <property name="tracks" type="collection" class="java.util.ArrayList">
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.cabrillo.tracker.CoordAxes">
+            <property name="name" type="string">ejes</property>
+            <property name="color" type="object">
+            <object class="java.awt.Color">
+                <property name="red" type="int">200</property>
+                <property name="green" type="int">0</property>
+                <property name="blue" type="int">200</property>
+                <property name="alpha" type="int">255</property>
+            </object>
+            </property>
+            <property name="footprint" type="string">Footprint.BoldSimpleAxes</property>
+            <property name="visible" type="boolean">true</property>
+            <property name="trail" type="boolean">false</property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.cabrillo.tracker.Vector">
+            <property name="name" type="string">vector A</property>
+            <property name="color" type="object">
+            <object class="java.awt.Color">
+                <property name="red" type="int">255</property>
+                <property name="green" type="int">0</property>
+                <property name="blue" type="int">255</property>
+                <property name="alpha" type="int">255</property>
+            </object>
+            </property>
+            <property name="footprint" type="string">Footprint.BoldArrow</property>
+            <property name="visible" type="boolean">true</property>
+            <property name="trail" type="boolean">true</property>
+            <property name="framedata" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.Vector$FrameData;">
+                <property name="[0]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">8.904249948692382</property>
+                    <property name="ycomponent" type="double">399.2367003870429</property>
+                </object>
+                </property>
+                <property name="[1]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">21.383358583789914</property>
+                    <property name="ycomponent" type="double">403.6935248995777</property>
+                </object>
+                </property>
+                <property name="[2]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">42.77611624395706</property>
+                    <property name="ycomponent" type="double">401.0194301920568</property>
+                </object>
+                </property>
+                <property name="[3]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">51.68976526902668</property>
+                    <property name="ycomponent" type="double">402.8021599970707</property>
+                </object>
+                </property>
+                <property name="[4]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">71.29979312417981</property>
+                    <property name="ycomponent" type="double">401.0194301920568</property>
+                </object>
+                </property>
+                <property name="[5]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">92.69255078434696</property>
+                    <property name="ycomponent" type="double">398.3453354845359</property>
+                </object>
+                </property>
+                <property name="[6]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">111.4112137369932</property>
+                    <property name="ycomponent" type="double">394.7798758745081</property>
+                </object>
+                </property>
+                <property name="[7]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">139.93489061721607</property>
+                    <property name="ycomponent" type="double">385.86622684943836</property>
+                </object>
+                </property>
+                <property name="[8]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">159.54491847236932</property>
+                    <property name="ycomponent" type="double">370.71302350682004</property>
+                </object>
+                </property>
+                <property name="[9]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">173.80675691248064</property>
+                    <property name="ycomponent" type="double">365.3648340917782</property>
+                </object>
+                </property>
+                <property name="[10]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">167.56720259493193</property>
+                    <property name="ycomponent" type="double">364.4734691892713</property>
+                </object>
+                </property>
+                <property name="[11]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">177.37221652250855</property>
+                    <property name="ycomponent" type="double">355.5598201642016</property>
+                </object>
+                </property>
+                <property name="[12]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">204.1131635977174</property>
+                    <property name="ycomponent" type="double">335.94979230904846</property>
+                </object>
+                </property>
+                <property name="[13]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">213.91817752529403</property>
+                    <property name="ycomponent" type="double">315.4483995513882</property>
+                </object>
+                </property>
+                <property name="[14]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">225.50592125788455</property>
+                    <property name="ycomponent" type="double">304.7520207213047</property>
+                </object>
+                </property>
+                <property name="[15]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">230.85411067292637</property>
+                    <property name="ycomponent" type="double">278.0110736460957</property>
+                </object>
+                </property>
+                <property name="[16]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">238.8763947954891</property>
+                    <property name="ycomponent" type="double">252.16149147339388</property>
+                </object>
+                </property>
+                <property name="[17]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">240.659124600503</property>
+                    <property name="ycomponent" type="double">246.81330205835206</property>
+                </object>
+                </property>
+                <property name="[18]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">249.5727736255726</property>
+                    <property name="ycomponent" type="double">206.70188144553867</property>
+                </object>
+                </property>
+                <property name="[19]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">255.81232794312132</property>
+                    <property name="ycomponent" type="double">179.9609343703297</property>
+                </object>
+                </property>
+                <property name="[20]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">259.37778755314923</property>
+                    <property name="ycomponent" type="double">152.32862239261385</property>
+                </object>
+                </property>
+                <property name="[21]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">262.94324716317703</property>
+                    <property name="ycomponent" type="double">121.13085080487019</property>
+                </object>
+                </property>
+                <property name="[22]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">267.40007167571184</property>
+                    <property name="ycomponent" type="double">99.73809314470304</property>
+                </object>
+                </property>
+                <property name="[23]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">267.40007167571184</property>
+                    <property name="ycomponent" type="double">68.54032155695927</property>
+                </object>
+                </property>
+                <property name="[24]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">267.40007167571184</property>
+                    <property name="ycomponent" type="double">51.60438840932693</property>
+                </object>
+                </property>
+                <property name="[25]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">268.29143657821885</property>
+                    <property name="ycomponent" type="double">31.994360554173795</property>
+                </object>
+                </property>
+                <property name="[26]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">268.29143657821885</property>
+                    <property name="ycomponent" type="double">17.732522114062363</property>
+                </object>
+                </property>
+                <property name="[27]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">269.18280148072586</property>
+                    <property name="ycomponent" type="double">-25.052993206271935</property>
+                </object>
+                </property>
+                <property name="[28]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">269.18280148072586</property>
+                    <property name="ycomponent" type="double">-48.228480671452985</property>
+                </object>
+                </property>
+                <property name="[29]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">269.18280148072586</property>
+                    <property name="ycomponent" type="double">-77.6435224541828</property>
+                </object>
+                </property>
+                <property name="[30]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">263.83461206568404</property>
+                    <property name="ycomponent" type="double">-106.16719933440561</property>
+                </object>
+                </property>
+                <property name="[31]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">263.83461206568404</property>
+                    <property name="ycomponent" type="double">-130.23405170209367</property>
+                </object>
+                </property>
+                <property name="[32]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">260.2691524556561</property>
+                    <property name="ycomponent" type="double">-156.97499877730257</property>
+                </object>
+                </property>
+                <property name="[33]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">251.3555034305865</property>
+                    <property name="ycomponent" type="double">-176.58502663245577</property>
+                </object>
+                </property>
+                <property name="[34]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">248.6814087230656</property>
+                    <property name="ycomponent" type="double">-200.65187900014382</property>
+                </object>
+                </property>
+                <property name="[35]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">237.09366499047508</property>
+                    <property name="ycomponent" type="double">-230.9582856853806</property>
+                </object>
+                </property>
+                <property name="[36]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">225.50592125788455</property>
+                    <property name="ycomponent" type="double">-264.8301519806452</property>
+                </object>
+                </property>
+                <property name="[37]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">214.80954242780103</property>
+                    <property name="ycomponent" type="double">-293.353828860868</property>
+                </object>
+                </property>
+                <property name="[38]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">203.2217986952105</property>
+                    <property name="ycomponent" type="double">-312.07249181351426</property>
+                </object>
+                </property>
+                <property name="[39]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">192.52541986512688</property>
+                    <property name="ycomponent" type="double">-325.4429653511187</property>
+                </object>
+                </property>
+                <property name="[40]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">181.82904103504336</property>
+                    <property name="ycomponent" type="double">-348.6184528162998</property>
+                </object>
+                </property>
+                <property name="[41]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">160.4362833748762</property>
+                    <property name="ycomponent" type="double">-365.5543859639321</property>
+                </object>
+                </property>
+                <property name="[42]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">150.6312694472996</property>
+                    <property name="ycomponent" type="double">-380.7075893065505</property>
+                </object>
+                </property>
+                <property name="[43]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">135.47806610468126</property>
+                    <property name="ycomponent" type="double">-394.07806284415494</property>
+                </object>
+                </property>
+                <property name="[44]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">115.86803824952801</property>
+                    <property name="ycomponent" type="double">-414.5794556018151</property>
+                </object>
+                </property>
+                <property name="[45]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">90.90982097933306</property>
+                    <property name="ycomponent" type="double">-447.55995699457276</property>
+                </object>
+                </property>
+                <property name="[46]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">79.32207724674254</property>
+                    <property name="ycomponent" type="double">-463.6045252396981</property>
+                </object>
+                </property>
+                <property name="[47]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">68.6256984166589</property>
+                    <property name="ycomponent" type="double">-468.9527146547399</property>
+                </object>
+                </property>
+                <property name="[48]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">56.14658978156149</property>
+                    <property name="ycomponent" type="double">-480.54045838733043</property>
+                </object>
+                </property>
+                <property name="[49]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">48.124305658998765</property>
+                    <property name="ycomponent" type="double">-488.5627425098931</property>
+                </object>
+                </property>
+                <property name="[50]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">40.99338643894305</property>
+                    <property name="ycomponent" type="double">-497.4763915349628</property>
+                </object>
+                </property>
+                <property name="[51]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">30.29700760885953</property>
+                    <property name="ycomponent" type="double">-501.9332160474976</property>
+                </object>
+                </property>
+                <property name="[52]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">16.926534071255105</property>
+                    <property name="ycomponent" type="double">-502.82458095000453</property>
+                </object>
+                </property>
+                <property name="[53]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">8.012885046185374</property>
+                    <property name="ycomponent" type="double">-505.49867565752544</property>
+                </object>
+                </property>
+                <property name="[54]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">0.8819658261296581</property>
+                    <property name="ycomponent" type="double">-505.49867565752544</property>
+                </object>
+                </property>
+                <property name="[55]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-9.81441300395386</property>
+                    <property name="ycomponent" type="double">-505.49867565752544</property>
+                </object>
+                </property>
+                <property name="[56]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-24.076251444065292</property>
+                    <property name="ycomponent" type="double">-508.1727703650463</property>
+                </object>
+                </property>
+                <property name="[57]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-35.66399517665582</property>
+                    <property name="ycomponent" type="double">-505.49867565752544</property>
+                </object>
+                </property>
+                <property name="[58]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-48.14310381175335</property>
+                    <property name="ycomponent" type="double">-498.3677564374697</property>
+                </object>
+                </property>
+                <property name="[59]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-63.296307154371675</property>
+                    <property name="ycomponent" type="double">-482.32318819234433</property>
+                </object>
+                </property>
+                <property name="[60]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-80.23224030200402</property>
+                    <property name="ycomponent" type="double">-469.84407955724686</property>
+                </object>
+                </property>
+                <property name="[61]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-90.92861913208753</property>
+                    <property name="ycomponent" type="double">-459.1477007271633</property>
+                </object>
+                </property>
+                <property name="[62]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-106.08182247470597</property>
+                    <property name="ycomponent" type="double">-437.7549430669962</property>
+                </object>
+                </property>
+                <property name="[63]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-116.77820130478949</property>
+                    <property name="ycomponent" type="double">-427.94992913941957</property>
+                </object>
+                </property>
+                <property name="[64]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-136.38822915994274</property>
+                    <property name="ycomponent" type="double">-408.3399012842664</property>
+                </object>
+                </property>
+                <property name="[65]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-152.43279740506807</property>
+                    <property name="ycomponent" type="double">-395.86079264916884</property>
+                </object>
+                </property>
+                <property name="[66]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-172.04282526022132</property>
+                    <property name="ycomponent" type="double">-378.0334945990296</property>
+                </object>
+                </property>
+                <property name="[67]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-191.65285311537446</property>
+                    <property name="ycomponent" type="double">-358.42346674387636</property>
+                </object>
+                </property>
+                <property name="[68]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-204.131961750472</property>
+                    <property name="ycomponent" type="double">-337.9220739862162</property>
+                </object>
+                </property>
+                <property name="[69]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-215.7197054830625</property>
+                    <property name="ycomponent" type="double">-320.094775936077</property>
+                </object>
+                </property>
+                <property name="[70]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-223.74198960562518</property>
+                    <property name="ycomponent" type="double">-306.7243023984725</property>
+                </object>
+                </property>
+                <property name="[71]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-231.76427372818785</property>
+                    <property name="ycomponent" type="double">-287.1142745433193</property>
+                </object>
+                </property>
+                <property name="[72]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-246.02611216829928</property>
+                    <property name="ycomponent" type="double">-269.28697649318</property>
+                </object>
+                </property>
+                <property name="[73]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-249.59157177832714</property>
+                    <property name="ycomponent" type="double">-249.67694863802683</property>
+                </object>
+                </property>
+                <property name="[74]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-242.46065255827142</property>
+                    <property name="ycomponent" type="double">-266.6128817856591</property>
+                </object>
+                </property>
+                <property name="[75]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-253.157031388355</property>
+                    <property name="ycomponent" type="double">-241.6546645154641</property>
+                </object>
+                </property>
+                <property name="[76]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-257.6138559008898</property>
+                    <property name="ycomponent" type="double">-222.0446366603109</property>
+                </object>
+                </property>
+                <property name="[77]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-262.0706804134246</property>
+                    <property name="ycomponent" type="double">-199.76051409763681</property>
+                </object>
+                </property>
+                <property name="[78]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-267.4188698284664</property>
+                    <property name="ycomponent" type="double">-174.80229682744186</property>
+                </object>
+                </property>
+                <property name="[79]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-268.3102347309734</property>
+                    <property name="ycomponent" type="double">-150.7354444597538</property>
+                </object>
+                </property>
+                <property name="[80]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-272.7670592435082</property>
+                    <property name="ycomponent" type="double">-114.18948345696828</property>
+                </object>
+                </property>
+                <property name="[81]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-283.46343807359176</property>
+                    <property name="ycomponent" type="double">-65.16441381908527</property>
+                </object>
+                </property>
+                <property name="[82]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-282.5720731710848</property>
+                    <property name="ycomponent" type="double">-31.292547523820645</property>
+                </object>
+                </property>
+                <property name="[83]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-282.5720731710848</property>
+                    <property name="ycomponent" type="double">-4.551600448611794</property>
+                </object>
+                </property>
+                <property name="[84]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-282.5720731710848</property>
+                    <property name="ycomponent" type="double">2.5793187714439227</property>
+                </object>
+                </property>
+                <property name="[85]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-281.6807082685778</property>
+                    <property name="ycomponent" type="double">23.97207643161107</property>
+                </object>
+                </property>
+                <property name="[86]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-270.9843294384943</property>
+                    <property name="ycomponent" type="double">75.67124077701499</property>
+                </object>
+                </property>
+                <property name="[87]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-262.96204531593156</property>
+                    <property name="ycomponent" type="double">125.587675317405</property>
+                </object>
+                </property>
+                <property name="[88]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-255.8311260958759</property>
+                    <property name="ycomponent" type="double">157.67681180765567</property>
+                </object>
+                </property>
+                <property name="[89]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-248.7002068758202</property>
+                    <property name="ycomponent" type="double">201.35369203049686</property>
+                </object>
+                </property>
+                <property name="[90]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-237.11246314322966</property>
+                    <property name="ycomponent" type="double">243.24784244832415</property>
+                </object>
+                </property>
+                <property name="[91]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-225.52471941063908</property>
+                    <property name="ycomponent" type="double">281.57653325612364</property>
+                </object>
+                </property>
+                <property name="[92]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-181.84783918779783</property>
+                    <property name="ycomponent" type="double">353.7770903591877</property>
+                </object>
+                </property>
+                <property name="[93]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-150.65006760005417</property>
+                    <property name="ycomponent" type="double">378.73530762938265</property>
+                </object>
+                </property>
+                <property name="[94]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-131.04003974490092</property>
+                    <property name="ycomponent" type="double">387.6489566544524</property>
+                </object>
+                </property>
+                <property name="[95]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-110.53864698724078</property>
+                    <property name="ycomponent" type="double">393.8885109720011</property>
+                </object>
+                </property>
+                <property name="[96]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-83.79769991203182</property>
+                    <property name="ycomponent" type="double">400.1280652895498</property>
+                </object>
+                </property>
+                <property name="[97]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-69.53586147192038</property>
+                    <property name="ycomponent" type="double">400.1280652895498</property>
+                </object>
+                </property>
+                <property name="[98]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-42.79491439671153</property>
+                    <property name="ycomponent" type="double">400.1280652895498</property>
+                </object>
+                </property>
+                <property name="[99]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">-24.9676163465723</property>
+                    <property name="ycomponent" type="double">399.2367003870429</property>
+                </object>
+                </property>
+                <property name="[100]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.Vector$FrameData">
+                    <property name="xtail" type="double">734.4940787421154</property>
+                    <property name="ytail" type="double">536.6964472452692</property>
+                    <property name="xcomponent" type="double">6.230155241171474</property>
+                    <property name="ycomponent" type="double">400.1280652895498</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+    </property>
+    <property name="selectedtrack" type="string">vector A</property>
+    <property name="dividers" type="array" class="[D">
+        <property name="array" type="string">{0.41573867854491464,0.5676156583629893,0.998220640569395,0.2962138084632517}</property>
+    </property>
+    <property name="views" type="array" class="[[Lorg.opensourcephysics.cabrillo.tracker.TView;">
+        <property name="[1]" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.TView;">
+            <property name="[1]" type="object">
+            <object class="org.opensourcephysics.cabrillo.tracker.TableTView">
+                <property name="selected_track" type="string">vector A</property>
+                <property name="track_columns" type="array" class="[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[Ljava.lang.String;">
+                        <property name="[0]" type="string">vector A</property>
+                        <property name="[1]" type="string">t</property>
+                        <property name="[2]" type="string">mag</property>
+                        <property name="[3]" type="string">θ</property>
+                    </property>
+                </property>
+                <property name="column_formats" type="array" class="[[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[[Ljava.lang.String;">
+                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">vector A</property>
+                            <property name="[1]" type="string">t</property>
+                            <property name="[2]" type="string">0.000</property>
+                        </property>
+                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">vector A</property>
+                            <property name="[1]" type="string">θ</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[2]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">vector A</property>
+                            <property name="[1]" type="string">step</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[3]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">vector A</property>
+                            <property name="[1]" type="string">frame</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                    </property>
+                </property>
+            </object>
+            </property>
+        </property>
+    </property>
+    <property name="selected_view_types" type="array" class="[I">
+        <property name="array" type="string">{0,1,2,3}</property>
+    </property>
+    <property name="selected_track_views" type="string">vector A,null;null,vector A;null,null;null,null</property>
+    <property name="toolbar" type="object">
+    <object class="org.opensourcephysics.cabrillo.tracker.TToolBar">
+        <property name="trace" type="boolean">false</property>
+        <property name="position" type="boolean">true</property>
+        <property name="velocity" type="boolean">false</property>
+        <property name="acceleration" type="boolean">false</property>
+        <property name="labels" type="boolean">true</property>
+        <property name="multiply_by_mass" type="boolean">false</property>
+        <property name="trail_length" type="int">15</property>
+        <property name="stretch" type="int">1</property>
+        <property name="stretch_acceleration" type="int">1</property>
+    </object>
+    </property>
+</object>
