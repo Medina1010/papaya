@@ -82,10 +82,10 @@ print('masimo', np.max(s))
 print('micimo', np.min(s))
 
 
-fou = np.fft.fft(Ve)
-s = np.zeros_like(X[50:])
-for i in range(0,40):
-    s += fou[i].real*np.cos(2*i*(X[50:]))/50
+#fou = np.fft.fft(Ve)
+#s = np.zeros_like(X[50:])
+#for i in range(0,40):
+#    s += fou[i].real*np.cos(2*i*(X[50:]))/50
 plt.plot(X[50:], Ve)
 plt.plot(X[50:], np.poly1d(np.polyfit(X[50:], Ve,14))(X[50:]))
 #plt.plot(X[50:], s)
@@ -98,14 +98,26 @@ def rtheta (theta):
     for i in range(0,4):
         s += fou[i*5].real*np.cos(5*i*(theta+np.pi))/100
     return s/385
+
 rphi = np.poly1d(np.polyfit(X[50:], Ve,14))
 
 import scipy as spy
 from scipy import integrate
 
 def f(phi, theta):
-    return rtheta(theta)*rphi(phi)**2*np.sin(phi)
+    return (rtheta(theta)*rphi(phi))**2*np.sin(phi)
 
 result, stderr = integrate.dblquad(f,0,2*np.pi, 0, np.pi)
 
 print(result)
+
+result, stderr = integrate.dblquad(f,0,2*np.pi, 0, np.pi)
+
+def f3(phi, theta):
+    return (rtheta(theta)*rphi(phi))**3*np.sin(phi)/3
+
+result, stderr = integrate.dblquad(f3,0,2*np.pi, 0, np.pi)
+
+print(result*1000000, 1052/(result*1000000))
+
+print(0.7950280140235211*result*1000000)
